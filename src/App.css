@@ -1,0 +1,54 @@
+/* App.css - Modern layout and card styles */
+.App {
+  max-width: 600px;
+  margin: 2em auto;
+  background: #fff;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.category-selector,
+.image-preview,
+.gallery {
+  margin: 1em 0;
+}
+
+.gallery img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  transition: transform 0.2s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.download-btn {
+  margin-top: 1em;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  
+}
+
+.download-btn:hover {
+  background: #218838;
+}
